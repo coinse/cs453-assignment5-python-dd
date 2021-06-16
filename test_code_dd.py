@@ -166,7 +166,7 @@ bad_max([1])
 '''
     sol_str9 = '''
 def bad_max(input_list):
-    bad_max(input_list[1:])
+    bad_max(input_list[:])
 bad_max([])
 '''
     min_str = student_solve(test_str9)
@@ -185,11 +185,12 @@ bad_str += " + %d" % piece3
 exec(bad_str)
 '''
     sol_str10 = r'''
-True
-1 + 2 + 3
-piece3 = 4 - 1 - 2
+piece1 = True
+piece2 = 1 + 2 + 3
+4 - 1 - 2
 bad_str = ''
-bad_str += ' + %d' % piece3
+bad_str += 'if %s:\n' % piece1
+bad_str += '    * %d' % piece2
 exec(bad_str)
 '''
     min_str = student_solve(test_str10)
