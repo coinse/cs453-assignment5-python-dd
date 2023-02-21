@@ -34,4 +34,4 @@ Specifics:
 As always, the template repository is configured with Python 3.9; there are no external libraries used.
 
 ## Submission Deadline
-Submit your solver code by Monday 2021-06-21, 18:00.
+You need to submit this assignment before 18:00 on 24th of May, 2023.
