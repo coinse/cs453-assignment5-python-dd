@@ -1,6 +1,6 @@
 # CS453 Assignment 5: Delta Debugging
 
-Welcome to your last assignment. Here, we implement the **Delta Debugging** (DD) algorithm described in [the lecture](https://coinse.kaist.ac.kr/assets/files/teaching/cs453/cs453slide08.pdf).
+Welcome to your last assignment. Here, we implement the **Delta Debugging** (DD) algorithm described in [the lecture](https://coinse.kaist.ac.kr/assets/files/teaching/cs453/cs453slide09.pdf).
 
 For those interested, you can find related papers below:
  - [The original delta debugging introduction](http://web2.cs.columbia.edu/~junfeng/09fa-e6998/papers/delta-debug.pdf) (back from '99)
