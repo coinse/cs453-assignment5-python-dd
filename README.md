@@ -1,6 +1,6 @@
-# CS453 Assignment 4: Delta Debugging
+# CS453 Assignment 5: Delta Debugging
 
-Welcome to your last assignment. Here, we implement the **Delta Debugging** (DD) algorithm described in the [April 26th](https://coinse.kaist.ac.kr/assets/files/teaching/cs453/cs453slide08.pdf) lecture.
+Welcome to your last assignment. Here, we implement the **Delta Debugging** (DD) algorithm described in [the lecture](https://coinse.kaist.ac.kr/assets/files/teaching/cs453/cs453slide08.pdf).
 
 For those interested, you can find related papers below:
  - [The original delta debugging introduction](http://web2.cs.columbia.edu/~junfeng/09fa-e6998/papers/delta-debug.pdf) (back from '99)
@@ -32,6 +32,3 @@ Specifics:
 
 ## Libraries and Python Version
 As always, the template repository is configured with Python 3.9; there are no external libraries used.
-
-## Submission Deadline
-You need to submit this assignment before 18:00 on 24th of May, 2023.
