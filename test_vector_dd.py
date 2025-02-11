@@ -39,6 +39,12 @@ class VectorInput():
     def __len__(self):
         return sum(map(int, self._content_on))
 
+    def is_faulty(self):
+        result = True
+        for fault in self._faults:
+            result = result and (fault in self.active_content())
+        return result
+
 def test_vectors():
     solver = VectorSolver()
     test_num = 100
