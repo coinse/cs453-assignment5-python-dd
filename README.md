@@ -31,4 +31,19 @@ Specifics:
  - You might find that for certain inputs, DD will return nonsensical reductions / non-minimal reductions. _This is normal_. The tests, on the other hand, have been crafted so that well-implemented DD will return sensical output (although it may not be minimal), so if you see ill-formed code as a result of executing your solver on the tests, something is likely wrong.
 
 ## Libraries and Python Version
-As always, the template repository is configured with Python 3.9; there are no external libraries used.
+The template repository is configured with Python 3.10; there are no external libraries used.
+
+### Report
+
+In addition to the implementation, submit a brief report as part of the repository. Name the file `report.pdf` in the root directory of the assignment repository. The report should contain the following:
+
+- A brief description of the problem in your own understanding
+- How you designed your solution (especially how the coverage is recorded).
+- Any unique idea/technique that you think you contributed to the implementation
+- A brief summary of what you've learnt
+
+### Important Notes
+
+- You can run the public test cases yourself using the files included in the repository: they are pytest test cases.
+- Obviously, the vector input example is artificial, designed just to show how DD is supposed to work :)
+- **DO NOT USE generative AI models**: DD itself is a relatively simple algorithm, and they may be able to write it for you, but then **what do you learn from the experience?** If you really feel stuck, ask questions on Slack instead.
